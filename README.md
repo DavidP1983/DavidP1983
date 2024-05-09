@@ -18,6 +18,7 @@
   * Bootstrap 5
   * adaptive and responsive design
   * JavaScript
+  * TypeScript
   * JQuery
   * axios, fetch API
   * React (class components, hooks)
@@ -90,7 +91,8 @@ The "Beauty Salon" project offers convenient and efficient management of all asp
 > [![My Skills](https://skillicons.dev/icons?i=react,ts)](https://skillicons.dev)
 [![image](https://github.com/DavidP1983/React_TypeScript_Project/assets/40338951/fed9359c-aabb-4dfe-b08f-8d0a9738d0ba)](https://beauty-salon3.netlify.app/)
 
-
+ > Desktop view
+-------
 
 
 
