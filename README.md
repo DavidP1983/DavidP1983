@@ -17,6 +17,7 @@
   * SASS
   * Bootstrap 5
   * adaptive and responsive design
+  * Tailwind CSS
   * JavaScript
   * TypeScript
   * JQuery
