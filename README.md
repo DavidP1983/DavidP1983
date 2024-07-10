@@ -20,9 +20,10 @@
   * Tailwind CSS
   * JavaScript
   * TypeScript
-  * JQuery
+  * Vue3.js
   * axios, fetch API
   * React (class components, hooks)
+  * Next.js
   * Redux
   * Webpack, Babel
   * Gulp
