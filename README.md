@@ -63,6 +63,7 @@ The application is designed as a tool for recruiters, teachers, and team leads w
 
 - **Next.js 16 (SSR)**
 - **TypeScript**
+- **React TanStack Query**
 - **HTML**
 - **SCSS Modules**
 - **Framer Motion** – animations
@@ -120,7 +121,7 @@ The main goal of this project is to provide a convenient and secure tool for:
 
 Developed as a full-stack pet project using modern web technologies and best development practices.
 
-[![My Skills](https://skillicons.dev/icons?i=nextjs,ts,html,scss,react,jest,nodejs,express,mongodb,git,github,githubactions)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nextjs,ts,html,scss,react,tanstack,jest,nodejs,express,mongodb,git,github,githubactions)](https://skillicons.dev)
 
 [![image](https://github.com/DavidP1983/DavidP1983/assets/40338951/4f072814-20a4-4c90-9da5-cc92e03dd34e)](https://test-constructor-xi.vercel.app/)
 [![image](https://github.com/DavidP1983/DavidP1983/assets/40338951/88bad43d-0f30-45b8-bad7-4811e4e6557a)](https://test-constructor-xi.vercel.app/)
