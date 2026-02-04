@@ -32,6 +32,105 @@
     * Git, GitHub
 
 ## My projects
+
+- ### ${\color{blue}Test Constructor Platform}$
+## Overview
+
+This project is a full-featured platform for creating and managing online tests.  
+It allows registered users to design their own tests, edit and manage them, share tests with candidates, and review completed results with detailed evaluations.
+
+The application is designed as a tool for recruiters, teachers, and team leads who need a convenient way to assess candidates or students through customizable testing workflows.
+
+---
+
+## Key Features
+
+- User registration and authentication  
+- Creating custom tests with flexible structure  
+- Editing and managing existing tests  
+- Viewing created tests  
+- Generating and sharing test links with candidates  
+- Collecting completed test results  
+- Viewing detailed candidate answers and scores  
+- Decision-making based on test performance  
+- Secure access to private user data  
+
+---
+
+## Tech Stack
+
+### Front-end
+
+- **Next.js 16 (SSR)**
+- **TypeScript**
+- **HTML**
+- **SCSS Modules**
+- **Framer Motion** – animations
+- **SweetAlert (Swal)** – notifications
+- **Jest + React Testing Library** – unit and integration testing
+
+Initially, Next.js Route Handlers were used, but for more удобной and flexible work with JWT tokens and cookies, the backend logic was moved to a separate Express server.
+
+To protect routes and manage authentication flow:
+
+- `proxy.ts` is used for protected routes  
+- Custom middleware with `rewrites` handles cookies and refresh token logic  
+
+---
+
+### Back-end
+
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose**
+- **JWT authentication**
+- **Access & Refresh Tokens**
+- **Cookie-based authorization**
+
+The backend provides secure authentication, token rotation, and protected API endpoints for managing users, tests, and results.
+
+---
+
+## CI/CD and Deployment
+
+The project uses a CI/CD pipeline configured via a `.yml` file.  
+GitHub repository settings and branch protection rules are applied to ensure stable and safe deployment:
+
+- Automated builds and tests on pull requests  
+- Deployment only after successful CI checks  
+- Branch protection rules to prevent direct pushes to main branches  
+- Code review requirements before merging  
+
+This setup helps maintain code quality and prevents unstable versions from being deployed to production.
+
+---
+
+## Purpose of the Project
+
+The main goal of this project is to provide a convenient and secure tool for:
+
+- evaluating candidates  
+- automating testing processes  
+- simplifying decision-making based on structured test results  
+
+---
+
+## Author
+
+Developed as a full-stack pet project using modern web technologies and best development practices.
+
+[![My Skills](https://skillicons.dev/icons?i=nextjs,ts,html,scss,react,jest,nodejs,express,mongodb,git,github,githubactions)](https://skillicons.dev)
+
+[![image](https://github.com/DavidP1983/DavidP1983/assets/40338951/4f072814-20a4-4c90-9da5-cc92e03dd34e)](https://test-constructor-xi.vercel.app/)
+[![image](https://github.com/DavidP1983/DavidP1983/assets/40338951/88bad43d-0f30-45b8-bad7-4811e4e6557a)](https://test-constructor-xi.vercel.app/)
+[![image](https://github.com/DavidP1983/DavidP1983/assets/40338951/f82fcaf5-98c9-4c7b-b619-2b8a60c21ff9)](https://test-constructor-xi.vercel.app/)
+[![image](https://github.com/DavidP1983/DavidP1983/assets/40338951/3d4c4f12-0369-4b54-b8d7-36d10bfa5395)](https://test-constructor-xi.vercel.app/)
+[![image](https://github.com/DavidP1983/DavidP1983/assets/40338951/196c3af0-0905-43a0-bf87-f0a138c7e597)](https://test-constructor-xi.vercel.app/)
+
+> full-stack pet project
+-------
+
 - ### ${\color{blue}Pulse}$
 This project helped me to improve my design skills.
 Also I learned the basic of adaptive and responsive design 
